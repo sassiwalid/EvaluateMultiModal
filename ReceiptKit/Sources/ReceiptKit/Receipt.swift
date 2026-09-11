@@ -9,7 +9,9 @@ public struct Receipt: Codable, Equatable, Sendable {
     @Guide(description: "Purchase date in ISO 8601 format (YYYY-MM-DD)", #/\d{4}-\d{2}-\d{2}/#)
     public var date: String
 
-    @Guide(description: "Purchased line items, in the order they are printed")
+    // Bounded so that a model looping on an unreadable receipt can't fill the 4,096-token
+    // context; the longest receipt in the dataset has 9 items.
+    @Guide(description: "Purchased line items, in the order they are printed", .maximumCount(40))
     public var items: [ReceiptItem]
 }
 

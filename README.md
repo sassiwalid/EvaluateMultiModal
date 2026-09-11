@@ -24,7 +24,7 @@ The split follows Apple's BookTracker sample: the feature lives in shippable cod
 
 ## The Feature: `ReceiptKit`
 
-- **`Receipt` and `ReceiptItem`**: `@Generable` types (guided generation). Each field has a `@Guide` description, and a regex constrains the date to `YYYY-MM-DD`.
+- **`Receipt` and `ReceiptItem`**: `@Generable` types (guided generation). Each field has a `@Guide` description, a regex constrains the date to `YYYY-MM-DD`, and `.maximumCount(40)` caps the item list. Without that cap, the model looped on the unreadable receipt 008 on the iPhone simulator, adding items until it exceeded its 4,096-token context. The prompt and image only take about 380 tokens, and the longest receipt in the dataset has 9 items.
 - **`ReceiptExtractor.extract(from:orientation:)`**: opens a `LanguageModelSession` and sends the prompt plus `Attachment(image, orientation:)` through the `PromptBuilder`. It uses `GenerationOptions(samplingMode: .greedy)` so that identical runs return identical results.
 - **`ReceiptImages.load(named:in:)`**: looks for a `.jpg`, `.jpeg`, `.png`, or `.heic` file in the bundle first, then for the image with the same name in the asset catalog. A file's EXIF orientation is read and passed to `Attachment`. None of the 21 photos has one.
 
@@ -113,6 +113,7 @@ Typical model errors:
 - `swift build` in `ReceiptKit`, the app builds for macOS and iOS Simulator, and the test target builds.
 - Without `references.json`, the test fails with `references.json not found. Add it to ReceiptEvaluations/ (schema: references.example.json).`
 - With `references.json`, the test passes: 21 receipts extracted, no inference failures.
+- On the iPhone 17 simulator (iOS 27), the test passes with the 40-item cap. Without it, receipt 008 failed with "The session's transcript exceeded the model's context size."
 - The Receipts screen renders on an iOS 27 simulator (iPhone 18 Pro).
 
 ## Open Points
