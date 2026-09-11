@@ -1,0 +1,10 @@
+{
+  "000": {
+    "group": "clean",
+    "store": "STORE NAME AS PRINTED",
+    "date": "2019-01-23",
+    "items": [
+      { "name": "ITEM LABEL AS PRINTED", "price": 20.0 }
+    ]
+  }
+}
