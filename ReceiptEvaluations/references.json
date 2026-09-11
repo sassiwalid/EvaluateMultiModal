@@ -1,6 +1,6 @@
 {
   "000": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "BOOK TA .K (TAMAN DAYA) SDN BHD",
     "date": "2018-12-25",
     "items": [
@@ -8,7 +8,7 @@
     ]
   },
   "001": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "INDAH GIFT & HOME DECO",
     "date": "2018-10-19",
     "items": [
@@ -17,7 +17,7 @@
     ]
   },
   "002": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "MR D.I.Y. (JOHOR) SDN BHD",
     "date": "2019-01-12",
     "items": [
@@ -28,7 +28,7 @@
     ]
   },
   "003": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "YONGFATT ENTERPRISE",
     "date": "2018-12-25",
     "items": [
@@ -36,7 +36,7 @@
     ]
   },
   "004": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "MR D.I.Y. (M) SDN BHD",
     "date": "2018-11-18",
     "items": [
@@ -48,7 +48,7 @@
     ]
   },
   "005": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "ABC HO TRADING",
     "date": "2019-01-09",
     "items": [
@@ -56,7 +56,7 @@
     ]
   },
   "006": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "SOON HUAT MACHINERY ENTERPRISE",
     "date": "2019-01-11",
     "items": [
@@ -71,7 +71,7 @@
     ]
   },
   "007": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.",
     "date": "2019-01-23",
     "items": [
@@ -79,7 +79,7 @@
     ]
   },
   "008": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "PERNIAGAAN ZHENG HUI",
     "date": "2018-02-12",
     "items": [
@@ -91,7 +91,7 @@
     ]
   },
   "009": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "Gerbang Alaf Restaurants Sdn Bhd",
     "date": "2018-01-18",
     "items": [
@@ -102,7 +102,7 @@
     ]
   },
   "010": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "SAM SAM TRADING CO",
     "date": "2017-12-29",
     "items": [
@@ -111,7 +111,7 @@
     ]
   },
   "011": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
     "date": "2017-06-15",
     "items": [
@@ -119,7 +119,7 @@
     ]
   },
   "012": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "HOME MASTER HARDWARE & ELECTRICAL",
     "date": "2017-12-22",
     "items": [
@@ -127,7 +127,7 @@
     ]
   },
   "013": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "RESTORAN HASSANBISTRO",
     "date": "2017-12-28",
     "items": [
@@ -135,7 +135,7 @@
     ]
   },
   "014": {
-    "group": "non-FR",
+    "group": "crumpled",
     "store": "ASIA MART",
     "date": "2017-12-22",
     "items": [
@@ -151,7 +151,7 @@
     ]
   },
   "015": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "HOME MASTER HARDWARE & ELECTRICAL",
     "date": "2017-12-22",
     "items": [
@@ -159,7 +159,7 @@
     ]
   },
   "016": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "LIGHTROOM GALLERY SDN BHD",
     "date": "2017-12-20",
     "items": [
@@ -168,7 +168,7 @@
     ]
   },
   "017": {
-    "group": "non-FR",
+    "group": "crumpled",
     "store": "LIGHTROOM GALLERY SDN BHD",
     "date": "2017-11-20",
     "items": [
@@ -176,7 +176,7 @@
     ]
   },
   "018": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "LIGHTROOM GALLERY SDN BHD",
     "date": "2017-12-20",
     "items": [
@@ -185,7 +185,7 @@
     ]
   },
   "019": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "Shell ISNI PETRO TRADING",
     "date": "2018-03-18",
     "items": [
@@ -193,7 +193,7 @@
     ]
   },
   "020": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "SYL ROASTED DELIGHTS SDN. BHD.",
     "date": "2018-03-06",
     "items": [

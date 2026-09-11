@@ -7,7 +7,6 @@ import ReceiptKit
 enum ReceiptGroup: String, Codable, CaseIterable, Sendable {
     case clean
     case crumpled
-    case nonFR = "non-FR"
 }
 
 /// One receipt photo, by asset name, paired with its hand-written reference.

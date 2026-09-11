@@ -44,7 +44,7 @@ The layout follows mockups generated with Stitch; they're in `.stitch/designs/`.
 ```json
 {
   "007": {
-    "group": "non-FR",
+    "group": "clean",
     "store": "S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.",
     "date": "2019-01-23",
     "items": [{ "name": "CROCS 300X17 TUBES", "price": 20.0 }]
@@ -52,7 +52,7 @@ The layout follows mockups generated with Stitch; they're in `.stitch/designs/`.
 }
 ```
 
-`group` is `clean`, `crumpled`, or `non-FR`. Each item's `price` is the line total as printed. The photos are read from the host app's asset catalog. If the file, an entry, or an image is missing, the test fails and lists what's missing.
+`group` describes the photo's condition, not the receipt's language: `clean` for a flat, legible receipt, `crumpled` when the paper is visibly deformed (creases, curls, waves). Each item's `price` is the line total as printed. The photos are read from the host app's asset catalog. If the file, an entry, or an image is missing, the test fails and lists what's missing.
 
 The references were transcribed from the photos (21 receipts, 58 items). Every mismatch from the first run was checked against its photo; all of them came from the model, not from the transcription. A few entries are judgment calls:
 
@@ -75,7 +75,7 @@ The test passes when every receipt is extracted. If the judge refuses a sample (
 
 ### Report
 
-The test prints the report and attaches it to the Xcode test report as `receipts.md`: one table row per receipt, then means per group (clean, crumpled, non-FR, All). `MarkdownReport` computes the group means from `result.detailed`, because `MetricsAggregator.group` groups metrics but doesn't filter samples.
+The test prints the report and attaches it to the Xcode test report as `receipts.md`: one table row per receipt, then means per group (clean, crumpled, All). `MarkdownReport` computes the group means from `result.detailed`, because `MetricsAggregator.group` groups metrics but doesn't filter samples.
 
 ### Running It
 
@@ -117,7 +117,7 @@ Typical model errors:
 
 ## Open Points
 
-- **Groups**: all 21 photos are Malaysian receipts and almost all are clean, so every entry is labeled `non-FR` and the clean and crumpled rows of the report are empty. Either regroup by capture type (flat scan versus camera photo) or add genuinely French and crumpled receipts.
+- **Groups**: none of the 21 photos is truly crumpled. Only 014 and 017, whose paper is visibly waved or curled, are labeled `crumpled`; the other 19 are `clean`. Two samples are too few for a reliable mean: add genuinely crumpled receipts.
 - **Duplicates**: 012 and 015 are the same file, and so are 016 and 018. They count twice in the means and should be replaced.
 - **Judge calibration**: the judge gave 2 or 3 out of 4 to extractions compared with placeholder references. Before relying on the Judge column, calibrate it against human scores, as BookTracker does with Cohen's kappa, or use `PrivateCloudComputeLanguageModel` as the judge.
 - **Item codes**: codes printed on their own line become separate items. A rule in the extractor's instructions could fix this; measure its effect with the evaluation before and after the change.
