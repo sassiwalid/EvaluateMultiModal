@@ -1,0 +1,207 @@
+{
+  "000": {
+    "group": "non-FR",
+    "store": "BOOK TA .K (TAMAN DAYA) SDN BHD",
+    "date": "2018-12-25",
+    "items": [
+      { "name": "KF MODELLING CLAY KIDDY FISH", "price": 9.00 }
+    ]
+  },
+  "001": {
+    "group": "non-FR",
+    "store": "INDAH GIFT & HOME DECO",
+    "date": "2018-10-19",
+    "items": [
+      { "name": "ST-PRIVILEGE CARD/GD INDAH", "price": 10.00 },
+      { "name": "GF-TABLE LAMP/STITCH", "price": 55.90 }
+    ]
+  },
+  "002": {
+    "group": "non-FR",
+    "store": "MR D.I.Y. (JOHOR) SDN BHD",
+    "date": "2019-01-12",
+    "items": [
+      { "name": "CHOPPING BOARD 35.5x25.5CM 803M#", "price": 19.00 },
+      { "name": "AIR PRESSURE SPRAYER SX-575-1 1.5L", "price": 8.02 },
+      { "name": "WAXCO WINDSHILED CLEANER 120ML", "price": 3.02 },
+      { "name": "BOPP TAPE 48MM*100M CLEAR", "price": 3.88 }
+    ]
+  },
+  "003": {
+    "group": "non-FR",
+    "store": "YONGFATT ENTERPRISE",
+    "date": "2018-12-25",
+    "items": [
+      { "name": "ELEGANT SCH TR BAG 15", "price": 80.91 }
+    ]
+  },
+  "004": {
+    "group": "non-FR",
+    "store": "MR D.I.Y. (M) SDN BHD",
+    "date": "2018-11-18",
+    "items": [
+      { "name": "KILAT'AUTO ECO WASH & SHINE ES1000 1L", "price": 3.11 },
+      { "name": "KILAT' ECO AUTO WASH &WAX EW-1000-1L", "price": 4.62 },
+      { "name": "WD40 277ml MOQ 2572", "price": 11.23 },
+      { "name": "KLEENSO AJAIB 99 SERAI WANYI 900G", "price": 7.45 },
+      { "name": "HANDKERCHIEF 71386#2PCS", "price": 4.50 }
+    ]
+  },
+  "005": {
+    "group": "non-FR",
+    "store": "ABC HO TRADING",
+    "date": "2019-01-09",
+    "items": [
+      { "name": "Plastic", "price": 31.00 }
+    ]
+  },
+  "006": {
+    "group": "non-FR",
+    "store": "SOON HUAT MACHINERY ENTERPRISE",
+    "date": "2019-01-11",
+    "items": [
+      { "name": "REPAIR ENGINE POWER SPRAYER (1UNIT)", "price": 80.00 },
+      { "name": "GIANT 606 OVERFLOW ASSY", "price": 160.00 },
+      { "name": "ENGINE OIL", "price": 17.00 },
+      { "name": "GREASE FOR TOOLS 40ML (AKODA)", "price": 10.00 },
+      { "name": "EY20 PLUG CHAMPION", "price": 6.00 },
+      { "name": "STARTER TALI", "price": 8.00 },
+      { "name": "EY20 STARTER HANDLE", "price": 10.00 },
+      { "name": "HD40 1L COTIN", "price": 36.00 }
+    ]
+  },
+  "007": {
+    "group": "non-FR",
+    "store": "S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.",
+    "date": "2019-01-23",
+    "items": [
+      { "name": "CROCS 300X17 TUBES", "price": 20.00 }
+    ]
+  },
+  "008": {
+    "group": "non-FR",
+    "store": "PERNIAGAAN ZHENG HUI",
+    "date": "2018-02-12",
+    "items": [
+      { "name": "11\" PROWESS H/DUTY SILICONE GUN G-DZ", "price": 15.00 },
+      { "name": "X'TRASEAL RTV ACETIC SILICONE SA-107", "price": 21.00 },
+      { "name": "CENTRAL PUNCH SET 3PCS - 1/4\",5/32\",1/4\"", "price": 18.00 },
+      { "name": "24\" MARKSMAN PIPE WRENCH", "price": 50.00 },
+      { "name": "PVC WIRE TAPE 1PC X 7YD", "price": 2.10 }
+    ]
+  },
+  "009": {
+    "group": "non-FR",
+    "store": "Gerbang Alaf Restaurants Sdn Bhd",
+    "date": "2018-01-18",
+    "items": [
+      { "name": "ChicMcMuffin", "price": 11.00 },
+      { "name": "M Porridge", "price": 5.60 },
+      { "name": "BM 2HotCakes", "price": 10.00 },
+      { "name": "L Coke", "price": 0.00 }
+    ]
+  },
+  "010": {
+    "group": "non-FR",
+    "store": "SAM SAM TRADING CO",
+    "date": "2017-12-29",
+    "items": [
+      { "name": "HE EOG UNICORN TWIN SUPER GLUE USG-99", "price": 5.20 },
+      { "name": "SS EZL A4 CYBER MIX COLOR PAPER 100'S", "price": 8.90 }
+    ]
+  },
+  "011": {
+    "group": "non-FR",
+    "store": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+    "date": "2017-06-15",
+    "items": [
+      { "name": "20\" 1.6KG X 500MM BIG STRETCH FILM", "price": 15.00 }
+    ]
+  },
+  "012": {
+    "group": "non-FR",
+    "store": "HOME MASTER HARDWARE & ELECTRICAL",
+    "date": "2017-12-22",
+    "items": [
+      { "name": "24MMx7Y M.ONE TAPE", "price": 15.90 }
+    ]
+  },
+  "013": {
+    "group": "non-FR",
+    "store": "RESTORAN HASSANBISTRO",
+    "date": "2017-12-28",
+    "items": [
+      { "name": "MAKANAN", "price": 15.00 }
+    ]
+  },
+  "014": {
+    "group": "non-FR",
+    "store": "ASIA MART",
+    "date": "2017-12-22",
+    "items": [
+      { "name": "DELICIA CHOCOLATE [50G]", "price": 15.25 },
+      { "name": "GARDENIA ORIGINAL CLASSIC JUMBO [600G]", "price": 3.55 },
+      { "name": "LIME 50G", "price": 1.50 },
+      { "name": "DOREMON CATCAT JOY 15G", "price": 1.51 },
+      { "name": "DOREMON CATCAT JOY 15G", "price": 1.51 },
+      { "name": "MINUTE MAID PULPY [OREN] [350ML]", "price": 2.44 },
+      { "name": "MINUTE MAID PULPY [OREN] [350ML]", "price": 2.44 },
+      { "name": "LEMON DRINK 500ML", "price": 1.60 },
+      { "name": "100 PLUS [1.5L]", "price": 2.90 }
+    ]
+  },
+  "015": {
+    "group": "non-FR",
+    "store": "HOME MASTER HARDWARE & ELECTRICAL",
+    "date": "2017-12-22",
+    "items": [
+      { "name": "24MMx7Y M.ONE TAPE", "price": 15.90 }
+    ]
+  },
+  "016": {
+    "group": "non-FR",
+    "store": "LIGHTROOM GALLERY SDN BHD",
+    "date": "2017-12-20",
+    "items": [
+      { "name": "T5 JOINT 2PIN 2PCS", "price": 2.83 },
+      { "name": "YE30 BK 7W WW LED TRACK LIGHT", "price": 66.04 }
+    ]
+  },
+  "017": {
+    "group": "non-FR",
+    "store": "LIGHTROOM GALLERY SDN BHD",
+    "date": "2017-11-20",
+    "items": [
+      { "name": "1059 18W SQ WW BK SUR LED LIGHT", "price": 37.55 }
+    ]
+  },
+  "018": {
+    "group": "non-FR",
+    "store": "LIGHTROOM GALLERY SDN BHD",
+    "date": "2017-12-20",
+    "items": [
+      { "name": "T5 JOINT 2PIN 2PCS", "price": 2.83 },
+      { "name": "YE30 BK 7W WW LED TRACK LIGHT", "price": 66.04 }
+    ]
+  },
+  "019": {
+    "group": "non-FR",
+    "store": "Shell ISNI PETRO TRADING",
+    "date": "2018-03-18",
+    "items": [
+      { "name": "V-Power 97", "price": 86.00 }
+    ]
+  },
+  "020": {
+    "group": "non-FR",
+    "store": "SYL ROASTED DELIGHTS SDN. BHD.",
+    "date": "2018-03-06",
+    "items": [
+      { "name": "(T02) BRAISED PORK RICE WITH PEANUT", "price": 14.00 },
+      { "name": "ROAST PORK - SMALL", "price": 12.00 },
+      { "name": "(V02) SOUR & SPICY MUSTARD", "price": 12.00 },
+      { "name": "(B03) JASMINE GREEN TEA(HOT)", "price": 4.60 },
+      { "name": "(R05) ROAST PORK + ROAST CHICKEN RICE", "price": 11.90 }
+    ]
+  }
+}

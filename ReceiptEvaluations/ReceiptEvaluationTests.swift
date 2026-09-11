@@ -26,9 +26,11 @@ struct ReceiptEvaluationTests {
         print(report)
         Testing.Attachment.record(report, named: "receipts.md")
 
+        // Every receipt must be extracted. A judge that refuses a sample (guardrails) isn't a
+        // failure of the feature: it shows as "—" in the report.
         #expect(
-            !result.errors.hasFailures,
-            "\(result.errors.inferenceFailureCount) inference and \(result.errors.evaluatorFailureCount) evaluator failure(s)"
+            result.errors.inferenceFailureCount == 0,
+            "\(result.errors.inferenceFailureCount) receipt(s) couldn't be extracted"
         )
     }
 }

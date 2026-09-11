@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Receipt 007 - Detail</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", sans-serif;
+      background-color: #F2F2F7;
+      color: #1C1C1E;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sf-mono {
+      font-feature-settings: "tnum" 1;
+      font-variant-numeric: tabular-nums;
+      font-family: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .whisper-shadow {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.02);
+    }
+    .hairline-border {
+      border-color: rgba(60, 60, 67, 0.12);
+    }
+    .hairline-bottom {
+      border-bottom: 0.5px solid rgba(60, 60, 67, 0.15);
+    }
+    .hairline-top {
+      border-top: 0.5px solid rgba(60, 60, 67, 0.15);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#F2F2F7] flex justify-center selection:bg-[#007AFF]/20">
+<div class="w-full max-w-[420px] min-h-screen bg-[#F2F2F7] flex flex-col relative pb-12 shadow-2xl">
+<!-- iOS Status Bar & Navigation Bar (SwiftUI NavigationStack Inline) -->
+<header class="sticky top-0 z-30 bg-[#F2F2F7]/85 backdrop-blur-md border-b hairline-border">
+<!-- Status Bar Area -->
+<div class="h-11 px-7 flex items-center justify-between text-xs font-semibold tracking-tight text-[#1C1C1E]">
+<span>9:41</span>
+<div class="flex items-center gap-1.5">
+<!-- Cellular -->
+<svg class="w-4 h-3 fill-current" viewbox="0 0 18 12">
+<rect height="3" rx="0.5" width="2.5" x="0" y="9"></rect>
+<rect height="6" rx="0.5" width="2.5" x="4" y="6"></rect>
+<rect height="8.5" rx="0.5" width="2.5" x="8" y="3.5"></rect>
+<rect height="12" rx="0.5" width="2.5" x="12" y="0"></rect>
+</svg>
+<!-- Wifi -->
+<svg class="w-3.5 h-3 fill-current" viewbox="0 0 16 12">
+<path d="M8 9.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM4.1 6.8a5.5 5.5 0 017.8 0 .7.7 0 101-.9 6.9 6.9 0 00-9.8 0 .7.7 0 101 .9zM1.3 3.9a9.5 9.5 0 0113.4 0 .7.7 0 101-.9 10.9 10.9 0 00-15.4 0 .7.7 0 101 .9z"></path>
+</svg>
+<!-- Battery -->
+<div class="flex items-center">
+<div class="w-5 h-2.5 border border-[#1C1C1E] rounded-[3px] p-0.5 flex items-center">
+<div class="h-full w-full bg-[#1C1C1E] rounded-[1px]"></div>
+</div>
+<div class="w-0.5 h-1 bg-[#1C1C1E] rounded-r-sm -ml-[0.5px]"></div>
+</div>
+</div>
+</div>
+<!-- Navigation Bar -->
+<div class="h-11 px-4 flex items-center justify-between">
+<!-- Back Button -->
+<button class="flex items-center text-[#007AFF] hover:opacity-75 transition-opacity active:scale-95 group -ml-1 py-1 pr-2">
+<svg class="w-5 h-5 -mr-0.5 transform -translate-x-0.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+<span class="text-[17px] tracking-normal font-normal">Receipts</span>
+</button>
+<!-- Centered Title -->
+<h1 class="text-[17px] font-semibold text-[#1C1C1E] tracking-tight truncate max-w-[170px] text-center">
+          Receipt 007
+        </h1>
+<!-- Trailing Action / Share or Edit -->
+</div>
+</header>
+<!-- Main Scrollable Content -->
+<main class="flex-1 px-4 pt-3 space-y-4">
+<!-- Photo Card: Full-width card with thermal receipt photo -->
+<section class="bg-white rounded-[16px] overflow-hidden whisper-shadow border border-black/[0.04] relative group">
+<div class="relative w-full h-64 sm:h-72 bg-[#E5E5EA] overflow-hidden flex items-center justify-center">
+<img alt="Captured thermal store receipt" class="w-full h-full object-cover object-center group-hover:scale-[1.01] transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAv1vZpmeUwpZ5uFEoeVRC_9Q0FoGNYEwR5f47ItLKmG3HQnXLgrEOINa0-TBEGCVfZnRG0JvuL1iKVdQ3D84Gii9HB6A7UyJKcxobrmEEeMLxk1FRUs_DSP0iXg2v9WebHh_HGCyyX5I9sm4iSa_VrU7dtnfOet0hom3mcpIlC37Nps52E7ycL73f-1bS33u2KiXO_tl9DlqbhwHNFC5V052pQ8H3DbRaEtbkxJTdVF92OCcffpVIDKDCy_rjGyVC1AFhM3510tbUI"/>
+<!-- Gentle gradient scrim for badge contrast -->
+<div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/15 pointer-events-none"></div>
+<!-- Bottom-left metadata badge -->
+<!-- Zoom button in top right corner -->
+<button aria-label="Zoom receipt image" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 active:bg-white backdrop-blur-md text-[#1C1C1E] whisper-shadow flex items-center justify-center hover:scale-105 active:scale-95 transition-all">
+<!-- magnifyingglass SF Symbol style -->
+<svg class="w-4 h-4 text-[#1C1C1E]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="7"></circle>
+<line x1="21" x2="16" y1="21" y2="16"></line>
+<line x1="11" x2="11" y1="8" y2="14"></line>
+<line x1="8" x2="14" y1="11" y2="11"></line>
+</svg>
+</button>
+</div>
+</section>
+<!-- Extraction Header Badge with SF Symbol 'sparkles' -->
+<div class="flex items-center justify-between px-1 pt-1">
+<div class="flex items-center gap-1.5 text-[13px] font-medium text-[#8E8E93]">
+<!-- SF Symbol: sparkles -->
+<svg class="w-4 h-4 text-[#007AFF]" fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 2L13.8 7.2C14.2 8.4 15.1 9.3 16.3 9.7L21.5 11.5L16.3 13.3C15.1 13.7 14.2 14.6 13.8 15.8L12 21L10.2 15.8C9.8 14.6 8.9 13.7 7.7 13.3L2.5 11.5L7.7 9.7C8.9 9.3 9.8 8.4 10.2 7.2L12 2Z"></path>
+</svg>
+<span class="tracking-tight text-[#8E8E93]">Extracted on device</span>
+</div>
+</div>
+<!-- SwiftUI Inset-Grouped Section: STORE -->
+<section class="space-y-1.5">
+<div class="px-3 text-[12px] font-medium tracking-tight text-[#8E8E93] uppercase">
+          STORE
+        </div>
+<div class="bg-white rounded-[16px] whisper-shadow border border-black/[0.03] overflow-hidden">
+<div class="p-3.5 flex items-start gap-3">
+<div class="w-9 h-9 rounded-xl bg-[#007AFF]/10 text-[#007AFF] flex items-center justify-center shrink-0 mt-0.5">
+<!-- Store icon -->
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+</div>
+<div class="flex-1 min-w-0">
+<div class="text-[15px] font-semibold text-[#1C1C1E] leading-snug tracking-tight">
+                S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.
+              </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SwiftUI Inset-Grouped Section: DATE & TRANSACTION -->
+<section class="space-y-1.5">
+<div class="px-3 text-[12px] font-medium tracking-tight text-[#8E8E93] uppercase">DATE</div>
+<div class="bg-white rounded-[16px] whisper-shadow border border-black/[0.03] overflow-hidden">
+<!-- Date Row -->
+<div class="px-3.5 py-3 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-lg bg-[#FF9500]/10 text-[#FF9500] flex items-center justify-center">
+<!-- Calendar icon -->
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
+<line x1="16" x2="16" y1="2" y2="6"></line>
+<line x1="8" x2="8" y1="2" y2="6"></line>
+<line x1="3" x2="21" y1="10" y2="10"></line>
+</svg>
+</div>
+<span class="text-[15px] font-medium text-[#1C1C1E]">Date</span>
+</div>
+<span class="sf-mono text-[15px] font-normal text-[#1C1C1E]">
+              2019-01-23
+            </span>
+</div>
+<!-- Time & Register Row -->
+</div>
+</section>
+<!-- SwiftUI Inset-Grouped Section: ITEMS -->
+<section class="space-y-1.5">
+<div class="px-3 flex items-center justify-between">
+</div>
+<div class="bg-white rounded-[16px] whisper-shadow border border-black/[0.03] overflow-hidden">
+<!-- Item 1 (Specified in request) -->
+<div class="px-3.5 py-3 flex items-center justify-between hairline-bottom">
+<div class="pr-3">
+<div class="text-[15px] font-medium text-[#1C1C1E] tracking-tight">
+                CROCS 300X17 TUBES
+              </div>
+</div>
+<div class="sf-mono text-[15px] font-medium text-[#1C1C1E] tracking-tight">
+              20.00
+            </div>
+</div>
+<!-- Subtotal / Summary Rows -->
+<!-- Footer Row (SwiftUI Section Footer style) -->
+<div class="px-3.5 py-2.5 bg-white flex items-center justify-between text-[13px] text-[#8E8E93]">
+<span>1 item</span>
+</div>
+</div>
+</section>
+<!-- Quick Action Buttons -->
+</main>
+<!-- iOS Home Indicator -->
+<div class="h-6 flex items-center justify-center pt-2 pb-1">
+<div class="w-32 h-1 bg-[#1C1C1E]/30 rounded-full"></div>
+</div>
+</div>
+</body>
+</html>
