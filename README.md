@@ -64,7 +64,7 @@ The references were transcribed from the photos (21 receipts, 58 items). Every m
 
 | Metric | Type | Rule |
 |---|---|---|
-| Store | pass / fail | Names are equal once normalized (case, accents, spaces, punctuation), or one contains the other (at least 4 characters) |
+| Store | pass / fail | Names are equal once normalized (case, accents, spaces, punctuation), or one contains the other and covers at least 60% of its length |
 | Date | pass / fail | Exact match in `YYYY-MM-DD` format |
 | Items | score from 0 to 1 | F1: an item counts when its normalized label **and** its price (within ±0.01) match |
 | Faithfulness | judge, from 1 to 4 | `ModelJudgeEvaluator` compares the extraction with the reference |

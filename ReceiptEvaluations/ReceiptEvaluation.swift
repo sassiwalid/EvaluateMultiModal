@@ -102,14 +102,19 @@ extension Receipt {
 }
 
 enum ReceiptMatching {
+    /// Share of the longer label that a contained label must cover, so that a short fragment
+    /// such as "OIL" doesn't match "ENGINE OIL".
+    static let minimumContainedRatio = 0.6
+
     /// Compares labels ignoring case, accents, spacing, and punctuation; a label also matches
-    /// when it contains the other one (such as "CARREFOUR" and "Carrefour Market").
+    /// when the other contains it and it covers at least `minimumContainedRatio` of the other's
+    /// length (such as "CARREFOUR" and "Carrefour Market", or "EY20 PLUG CHAMPION").
     static func sameText(_ lhs: String, _ rhs: String) -> Bool {
         let a = normalized(lhs), b = normalized(rhs)
         guard !a.isEmpty, !b.isEmpty else { return a == b }
         if a == b { return true }
         let (short, long) = a.count < b.count ? (a, b) : (b, a)
-        return short.count >= 4 && long.contains(short)
+        return Double(short.count) >= minimumContainedRatio * Double(long.count) && long.contains(short)
     }
 
     /// Harmonic mean of precision and recall, pairing each expected item with at most one
